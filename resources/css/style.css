@@ -9,6 +9,11 @@ html {
   width: 960px;
   margin: 0 auto;
 }
+
+div {
+  display:block;
+}
+
 /* Header Section */
 header {
   display: flex;
@@ -20,7 +25,8 @@ header {
 header .container {
   display: flex;
   align-items: center;
-
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
 }
 
 header img {
@@ -30,16 +36,56 @@ header img {
 }
 
 header span {
-  margin-top: 0.66rem;
-  margin-bottom: 0.66rem;
+
   font-size: 1rem;
   color: white;
 }
 
 /* Main Section */
+.main-section {
+  background: url("../images/main-background-image.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
 
+.headline {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  margin: 0.25rem 0;
+}
+
+h4 {
+  display: block;
+}
+
+h1, h4 {
+  font-weight: bold;
+}
 
 /* Nav Section */
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav span {
+  margin: 0.75rem 0;
+}
+
+a {
+  color: white;
+}
+
 /* Product Section */
 /* Location Section */
 /* Hours Section */
