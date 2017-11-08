@@ -16,17 +16,14 @@ div {
 
 /* Header Section */
 header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   background-color: black;
+  color: white;
 }
 
 header .container {
   display: flex;
   align-items: center;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
+  padding: 0.66rem;
 }
 
 header img {
@@ -87,8 +84,46 @@ nav ul {
   list-style: none;
 }
 
+/* Product and Business Section */
+.products, .business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
 
-/* Product Section */
-/* Location Section */
-/* Hours Section */
+.product {
+  width: 30%;
+}
+
+.product-image {
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+    max-width: 8rem;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
 /* Footer */
